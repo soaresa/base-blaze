@@ -1,0 +1,7 @@
+@import "{poetic:materialize-scss}/sass/materialize.scss";
+
+@media #{$small-and-down} {
+	h1 {
+		font-size: 42px;
+	}
+}

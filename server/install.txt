@@ -1,0 +1,10 @@
+#meteor packages
+meteor add npm-bcrypt accounts-password alanning:roles asoares:flow-router-seo ddp-rate-limiter dferber:prerender force-ssl fourseven:scss@3.13.0 gadicohen:sitemaps http jagi:astronomy jagi:astronomy-timestamp-behavior jquery kadira:blaze-layout kadira:flow-router mdg:validated-method meteorhacks:subs-manager okgrow:analytics okgrow:router-autoscroll poetic:materialize-scss@1.97.6_1 practicalmeteor:mocha raix:handlebar-helpers reywood:publish-composite service-configuration staringatlights:fast-render tmeasday:publish-counts xolvio:backdoor
+
+#scss setup
+#folder structure setup
+#created home page
+
+#After clone
+cd /base-blaze
+chmod +rwx run

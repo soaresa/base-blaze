@@ -1,0 +1,22 @@
+case $1 in
+    "dev")
+        printf "[Meteor] Run Dev.\n"
+        meteor --settings=settings-dev.json
+        ;;
+    "devpack")
+        printf "[Meteor] Run Dev Packages.\n"
+        export METEOR_PACKAGE_DIRS="/home/adalberto/dev/meteor/packages"
+        meteor --settings=settings-dev.json
+        ;;
+    "test")
+        printf "[Meteor] Run Test\n"
+        meteor npm run chimp-watch
+        ;;   
+    "ssh")
+        printf "SSH.\n"
+        ssh root@x.x.x.x
+        ;;     
+    *)
+    printf "Peace out.\n"
+    exit 0
+esac

@@ -1,0 +1,8 @@
+{
+	"public": {
+		"stage": "dev",
+		"analyticsSettings": {
+			"Google Analytics": { "trackingId": "" }
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.public-footer{
+	position: relative; 
+	height: 6rem;
+	top: -6rem;
+}
+
+.public-header {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+}
+
+.public-main {
+	padding: 58px 0px 6rem 0px;
+	min-height: 100%;
+}
